@@ -28,7 +28,7 @@ Vue.use(VueHljsLite, { hljs });
 Inside any component
 
 ```html
-<vue-hljs-lite :code="code" :language="'xml'"></vue-hljs-lite>
+<vue-hljs-lite :code="code" :language="'xml'" />
 ```
 
 ## Powered by

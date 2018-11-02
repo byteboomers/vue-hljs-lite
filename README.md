@@ -12,10 +12,11 @@ npm install --save highlight.js vue-hljs-lite
 
 ## Setup & example
 
-main.js
+Inside your main.js:
+
+The default highlight.js import imports all languages, it is therefore likely to be more efficient to import only the library and the languages you need.
 
 ```javascript
-// To reduce bundle size, we only import a subset of hljs
 import hljs from 'highlight.js/lib/highlight';
 import xml from 'highlight.js/lib/languages/xml';
 hljs.registerLanguage('xml', xml);
@@ -25,11 +26,20 @@ import VueHljsLite from 'vue-hljs-lite';
 Vue.use(VueHljsLite, { hljs });
 ```
 
-Inside any component
+Inside any component:
 
 ```html
 <vue-hljs-lite :code="code" :language="'xml'"></vue-hljs-lite>
 ```
+
+## Props
+
+- **code**: the code to highlight and render.
+- **language**: the highlight language.
+
+## Size:
+
+1.52 KiB
 
 ## Powered by
 

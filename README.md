@@ -34,8 +34,8 @@ Inside any component:
 
 ## Props
 
-- **code**: the code to highlight and render.
-- **language**: the highlight language.
+- **code**: the code to highlight.
+- **language**: the language of the code to highlight.
 
 ## Size:
 

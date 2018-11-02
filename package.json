@@ -1,6 +1,6 @@
 {
   "name": "vue-hljs-lite",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lightweight highlight.js Vue component",
   "main": "dist/vue-hljs-lite.js",
   "scripts": {

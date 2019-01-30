@@ -1,7 +1,7 @@
 export default {
   install(Vue, options) {
     const { hljs } = options;
-    Vue.component('vue-hljs-lite', {
+    Vue.component("vue-hljs-lite", {
       functional: true,
       props: {
         code: {
@@ -17,9 +17,9 @@ export default {
         const { value: html } = language
           ? hljs.highlight(language, code)
           : hljs.highlightAuto(code);
-        return h('pre', ctx.data, [
-          h('code', {
-            class: 'hljs',
+        return h("pre", ctx.data, [
+          h("code", {
+            class: "hljs",
             domProps: {
               innerHTML: html
             }

@@ -1,17 +1,22 @@
 {
   "name": "vue-hljs-lite",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Lightweight highlight.js Vue component",
+  "author": "Bjorn Krols (https://byteboomers.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/byteboomers/vue-hljs-lite#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byteboomers/vue-hljs-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/byteboomers/vue-hljs-lite/issues"
+  },
   "main": "dist/vue-hljs-lite.js",
   "scripts": {
     "build": "webpack --mode production --progress"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Botre/vue-hljs-lite.git"
-  },
-  "author": "Bjorn Krols",
-  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",

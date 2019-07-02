@@ -1,9 +1,16 @@
 {
   "name": "vue-hljs-lite",
-  "version": "1.0.1",
   "description": "Lightweight highlight.js Vue component",
+  "private": false,
+  "version": "1.0.1",
   "author": "Bjorn Krols (https://byteboomers.com)",
   "license": "MIT",
+  "keywords": [
+    "highlight",
+    "highlight.js",
+    "hljs",
+    "vue"
+  ],
   "homepage": "https://github.com/byteboomers/vue-hljs-lite#readme",
   "repository": {
     "type": "git",

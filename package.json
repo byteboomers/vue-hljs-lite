@@ -23,6 +23,7 @@
   "scripts": {
     "build": "webpack --mode production --progress"
   },
+  "husky": {},
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -30,5 +31,6 @@
     "babel-loader": "^8.0.6",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5"
-  }
+  },
+  "peerDependencies": {}
 }
